@@ -1,0 +1,27 @@
+{
+  "name": "melee",
+  "title": "Melee",
+  "description": "A minimalist game system adapted for Melee/Wizard/The Fantasy Trip.",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.8.4",
+  "compatibleCoreVersion": "0.8.6",
+  "author": "Atropos",
+  "esmodules": ["module/melee.js"],
+  "styles": ["styles/melee.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "https://github.com/jimu/meleevtt/",
+  "manifest": "https://github.com/jimu/meleevtt/raw/0.1.x/system.json",
+  "download": "https://github.com/jimu/meleevtt/-/archive/release-010/melee-release-010.zip",
+  "license": "LICENSE.txt"
+}
